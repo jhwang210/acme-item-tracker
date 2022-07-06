@@ -45,7 +45,6 @@ class _App extends Component{
   }
 }
 
-
 const mapDispatch = (dispatch)=> {
   return {
     setView: (view)=> {
@@ -59,6 +58,7 @@ const mapDispatch = (dispatch)=> {
       dispatch({
         type: 'SET_USERS',
         users: responses[0].data
+
       });
       dispatch({
         type: 'SET_THINGS',

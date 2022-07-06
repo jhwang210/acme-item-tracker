@@ -5,7 +5,7 @@ import axios from 'axios';
 const ThingForm = ({ createThing })=> {
   return (
     <div>
-      <button onClick={ createThing }>+</button>
+      <button onClick={ createThing }>Create Thing</button>
     </div>
   );
 };
